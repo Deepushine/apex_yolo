@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 37
+names: ['angle_grinder', 'angle_iron', 'axe', 'brush', 'bulb', 'c_clamp', 'chisel', 'corless_drill', 'electric drill', 'face_shield', 'file', 'glasses', 'golves', 'hammer', 'helmet', 'laptop', 'level', 'measuring_tape', 'multimeter', 'nail', 'nuts', 'paint_roller', 'pencil', 'pens', 'pliers', 'ruler', 'saw', 'scissors', 'screwdriver', 'screws', 'tape', 'trowel', 'utility_knife', 'vernier_caliper', 'vise', 'washer', 'wrench']
+
+roboflow:
+  workspace: ariq
+  project: tools-detection-lu6v3
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ariq/tools-detection-lu6v3/dataset/5

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cell phone', 'phone']
+
+roboflow:
+  workspace: phone-yw6ou
+  project: phone-7un5s
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/phone-yw6ou/phone-7un5s/dataset/2

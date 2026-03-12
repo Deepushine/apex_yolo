@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['5V', 'ARDUINO', 'Battery', 'Breadboard', 'Button', 'DC Motor', 'GND', 'H Bridge', 'LCD', 'LED', 'Long wire', 'Phototransistor', 'Piezo', 'Potentiometer', 'Resistor', 'Short wire']
+
+roboflow:
+  workspace: school-v9trz
+  project: electronic-components-vfiqs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/school-v9trz/electronic-components-vfiqs/dataset/1

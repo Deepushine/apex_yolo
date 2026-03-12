@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pen-pencil']
+
+roboflow:
+  workspace: tbn-acjk2
+  project: pens-y8dxo
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tbn-acjk2/pens-y8dxo/dataset/2

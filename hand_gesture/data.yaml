@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['BACKWARD', 'DOWN', 'FLIP', 'FORWARD', 'LEFT', 'RIGHT', 'STOP', 'UP']
+
+roboflow:
+  workspace: hand-gesture-bounding-box
+  project: hand-gesture-qn1k3
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hand-gesture-bounding-box/hand-gesture-qn1k3/dataset/5

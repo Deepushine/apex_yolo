@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['StickyNotes', 'bag', 'book', 'bottle', 'calender', 'desktop', 'file', 'filetray', 'headphone', 'keyboard', 'laptop', 'mouse', 'mug', 'nameplate', 'page', 'vase']
+
+roboflow:
+  workspace: qwerty-k5pgk
+  project: desk-ir3be
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/qwerty-k5pgk/desk-ir3be/dataset/1
